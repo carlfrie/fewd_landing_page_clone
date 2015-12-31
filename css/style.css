@@ -1,0 +1,177 @@
+body {
+	background-color: LightGray;
+}
+
+div {
+	border: 1px; solid Chocolate;
+}
+
+/*  not sure why this makes the nav bar worse!
+
+	.content {
+	padding: 0 0.938rem;
+	maring: 0 auto;
+	min-width: 37.5rem;
+}
+*/ 
+
+/* Typography Declarations */
+
+font {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+*, *:before, *after {
+	box-sizing: inherit;
+}
+
+
+
+/* Navigation */
+
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+
+.top-navigation > .content {
+	height: 4.375rem;
+	padding: 0px 15px;
+}
+
+.top-navigation .logo {
+	height: 4.375rem;
+	margin-top: 0;
+	margin-left: 50px;
+	
+}
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+    -webkit-font-smoothing: antialiased;
+
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.top-navigation .links > .active {
+	color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+/* Introduction */
+
+.introduction {
+	background-image: url('../images/first-background copy.jpg');
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 45.938rem;
+	overflow: auto;
+
+}
+
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.introduction h1 {
+	font-size: 3.125rem;
+	margin-top: 17.5rem;
+}
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+.introduction .big-button {
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.big-button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    text-decoration: none; 
+}
+
+.big-button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+/* Cases Section */
+
+.cases {
+	background-color: #fff;
+	width: 100%;
+	padding-bottom: 10rem;
+	overflow: hidden;
+}
+
+.cases .content {
+	text-align: center;
+	padding: none;
+
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	font-weight: 300;
+	text-align: center
+
+}
+
+.cases .devices {
+	width: 33.3333333%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 11em;
+    margin: 0 auto;
+    float: left;
+}
+
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 0 auto;
+
+}
+
+
