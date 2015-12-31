@@ -174,4 +174,47 @@ html {
 
 }
 
+/* Footer */
+
+.social {
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 1.24rem;
+	font-weight: 100;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+
+}
+
+ul {
+	list-style: none;
+}
+
+.social .icons > li {
+	display: inline-block;
+	width: 3.5rem;
+	height: 2.5rem;
+	border: 1px solid #eaebec;
+	border-radius: 50%;
+	margin: 1.25rem 5px;
+	padding: 0.5rem 0;
+	text-align: center;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+
+.social .icons .twitter {
+	color: #55acee;
+}
+
+.social .icons .facebook {
+	color: #55acee;
+}
+
+.social .icons .instagram {
+	color: #55acee;
+}
+
 
