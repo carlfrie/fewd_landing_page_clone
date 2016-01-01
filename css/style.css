@@ -183,6 +183,8 @@ html {
 	font-weight: 100;
 	overflow: auto;
 	padding-bottom: 9.375rem;
+	display: inline-block;
+	width: 100%;
 
 }
 
@@ -196,15 +198,25 @@ ul {
 	list-style: none;
 }
 
-.social .icons > li {
+
+.social > .content {
 	display: inline-block;
-	width: 3.5rem;
-	height: 2.5rem;
-	border: 1px solid #eaebec;
-	border-radius: 50%;
-	margin: 1.25rem 5px;
-	padding: 0.5rem 0;
-	text-align: center;
+}
+
+.social .icons {
+	display: inline-block;
+	margin: auto 0;
+}
+
+.social .icons > li {
+	border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding:  0;
+    text-align: center;
 }
 
 .social .icons > li:hover {
@@ -213,20 +225,28 @@ ul {
 
 .social .icons .twitter {
 	color: #55acee;
+	display: inline-block;
+	padding-top: 1px;
 }
 
 .social .icons .facebook {
-	color: #55acee;
+	color: #4c66a4;
+	display: inline-block;
 }
 
 .social .icons .instagram {
-	color: #55acee;
+	color: #3f729b;
+	display: inline-block;
 }
 
 .social h5 {
 	text-align: center;
 	font-weight: 100;
 	color: #838994
+}
+
+.social h4 {
+	text-align: h4;
 }
 
 
