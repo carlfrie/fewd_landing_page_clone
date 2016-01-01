@@ -18,3 +18,8 @@ Bold
 ```
 **Bold**
 ```
+
+<h2>Is this h2?</h2>
+
+<em>Is this italicized></em>
+
